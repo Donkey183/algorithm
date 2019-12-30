@@ -72,7 +72,7 @@ public class TextJustification {
    * <p>
    * Return the formatted lines as:
    * [
-   * "This is an",
+   * "it is is an",
    * "example of text",
    * "justification. "
    * ]
@@ -86,11 +86,48 @@ public class TextJustification {
    *
    * @param args
    */
+//  public static void main(String[] args) {
+//    List<String> result = new ArrayList<>();
+//    result = fullJustify(new String[]{"This", "is", "an", "example", "of", "text", "justification."}, 16);
+//    for (String s : result) {
+//      System.out.println(s);
+//    }
+//  }
+
   public static void main(String[] args) {
-    List<String> result = new ArrayList<>();
-    result = fullJustify(new String[]{"This", "is", "an", "example", "of", "text", "justification."}, 16);
-    for (String s : result) {
-      System.out.println(s);
+    String[] strs = new String[]{"This", "is", "an", "example", "of", "text", "justification."};
+    fullJustify(strs);
+    char[] chars = new char[16];
+    System.out.println("success" + String.valueOf(chars) + "end");
+  }
+
+  private static List<String> fullJustify(String[] strs) {
+    // Step1: 查找分割点
+    List<Integer> lineList = findEnd(strs, 16);
+    for(Integer i : lineList) {
+      System.out.println(i);
     }
+
+    // Step2: 填充字符串
+    return null;
+  }
+
+  private static List<Integer> findEnd(String[] strs, int L) {
+    List<Integer> result = new ArrayList<Integer>();
+    int count = 0;
+    for(int i = 0; i < strs.length; i++) {
+      if(count + strs[i].length() <= L) {
+        count += strs[i].length() + 1;
+      } else {
+        result.add(i - 1);
+        count = strs[i].length();
+      }
+    }
+   return result;
+  }
+
+  private static String fillLine(String[] strs, int L) {
+    char[] line = new char[L];
+    return "";
   }
 }

@@ -27,6 +27,6 @@ public class StringProduct {
   }
   
   public static void main(String[] args) {
-    System.out.print("result=" + multiply("113", "99"));
+    System.out.print("result=" + multiply("37", "49"));
   }
 }

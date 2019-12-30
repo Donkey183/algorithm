@@ -1,6 +1,7 @@
 package com.demo.test.airbnb;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
@@ -51,37 +52,42 @@ public class Vector2D {
    * the order of elements returned by next should be: [1,2,3,4,5,6].
    */
   public static void main(String[] args) {
-    List<List<Integer>> vec2d = new ArrayList<>();
-    List<Integer> l1 = new ArrayList<>();
-    List<Integer> l2 = new ArrayList<>();
-    List<Integer> l3 = new ArrayList<>();
-    l1.add(1);
-    l1.add(2);
-    l2.add(3);
-    l3.add(4);
-    l3.add(5);
-    l3.add(6);
-    vec2d.add(l1);
-    vec2d.add(l2);
-    vec2d.add(l3);
-    Vector2D vector2D = new Vector2D(vec2d);
-    System.out.println(vector2D.hasNext());
-    System.out.println(vector2D.next());
-    System.out.println(vector2D.hasNext());
-    System.out.println(vector2D.next());
-    System.out.println(vector2D.next());
-    vector2D.remove();
-    System.out.println(vector2D.hasNext());
-    List<Integer> res = new ArrayList<>();
-    while (vector2D.hasNext()) {
-      res.add(vector2D.next());
-    }
-    System.out.println("==resSize==" + res.size());
-    System.out.println("==5==" + res.get(0));
-    System.out.println("==6==" + res.get(1));
-    System.out.println("==6==" + res.get(2));
-    System.out.println(vector2D.next());
-    System.out.println(vector2D.next());
-    System.out.println(vector2D.hasNext());
+//    List<List<Integer>> vec2d = new ArrayList<>();
+//    List<Integer> l1 = new ArrayList<>();
+//    List<Integer> l2 = new ArrayList<>();
+//    List<Integer> l3 = new ArrayList<>();
+//    l1.add(1);
+//    l1.add(2);
+//    l2.add(3);
+//    l3.add(4);
+//    l3.add(5);
+//    l3.add(6);
+//    vec2d.add(l1);
+//    vec2d.add(l2);
+//    vec2d.add(l3);
+//    Vector2D vector2D = new Vector2D(vec2d);
+//    System.out.println(vector2D.hasNext());
+//    System.out.println(vector2D.next());
+//    System.out.println(vector2D.hasNext());
+//    System.out.println(vector2D.next());
+//    System.out.println(vector2D.next());
+//    vector2D.remove();
+//    System.out.println(vector2D.hasNext());
+//    List<Integer> res = new ArrayList<>();
+//    while (vector2D.hasNext()) {
+//      res.add(vector2D.next());
+//    }
+//    System.out.println("==resSize==" + res.size());
+//    System.out.println("==5==" + res.get(0));
+//    System.out.println("==6==" + res.get(1));
+//    System.out.println("==6==" + res.get(2));
+//    System.out.println(vector2D.next());
+//    System.out.println(vector2D.next());
+//    System.out.println(vector2D.hasNext());
+
+
+    List<Integer> liii = new ArrayList(Arrays.asList(new Integer[]{1, 2, 3}));
+    System.out.println("==6==" + liii.get(2));
+    Iterator iterator = liii.iterator();
   }
 }
