@@ -5,14 +5,46 @@ public class LinkList {
   private static Node current;
   
   public static void main(String[] args) {
-    int a[] = {1, -1, 3, 7, 2};
-    int b[] = {1, 2, 6};
-    int c[] = {3, 7, 8, 9};
-    
-    Node bHead = init(b);
-    Node cHead = init(c);
-    merge(bHead, cHead);
-    printList(head);
+    try {
+//      Double.parseDouble("2.01s");
+      System.out.println("=========SUCC=============" + isValidAmount("2.14"));
+      System.out.println("=========SUCC=============" + isValidAmount("2,366.14"));
+      System.out.println("=========SUCC=============" + isValidAmount("2"));
+      System.out.println("=========SUCC=============" + isValidAmount("2,300,200.35"));
+      System.out.println("=========SUCC=============" + isValidAmount("s2,300,200.35"));
+      System.out.println("=========SUCC=============" + isValidAmount("2,300,200.35哈哈"));
+    } catch (Exception e) {
+      System.out.println("=========Exception=============");
+    }
+
+//    int a[] = {1, -1, 3, 7, 2};
+//    int b[] = {1, 2, 6};
+//    int c[] = {3, 7, 8, 9};
+//
+//    Node bHead = init(b);
+//    Node cHead = init(c);
+//    merge(bHead, cHead);
+//    printList(head);
+  }
+
+  public static boolean isValidAmount (String value) {
+    if(value == null || value.length() == 0) {
+      return false;
+    }
+    try {
+      if (value.contains(",")) {
+        String[] arr = value.split(",");
+        for (String str : arr) {
+          Double.parseDouble(str);
+        }
+      } else {
+        Double.parseDouble(value);
+      }
+
+    } catch (Exception e) {
+      return false;
+    }
+    return true;
   }
   
   private static Node init(int[] a) {

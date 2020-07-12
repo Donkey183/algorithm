@@ -3,7 +3,7 @@ package com.demo.test.airbnb;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ImplementQueuewithFixedSizeofArrays {
+public class ImplementQueueWithFixedSizeofArrays {
   public class QueueWithFixedArray {
     private int fixedSize;
     private int count;
@@ -65,21 +65,35 @@ public class ImplementQueuewithFixedSizeofArrays {
    * @param args
    */
   public static void main(String[] args) {
-    QueueWithFixedArray queue = new ImplementQueuewithFixedSizeofArrays().new QueueWithFixedArray(5);
+    QueueWithFixedArray queue = new ImplementQueueWithFixedSizeofArrays().new QueueWithFixedArray(5);
     queue.offer(1);
     queue.offer(2);
-    int res = queue.poll();
-    System.out.println("res=" + res);
+//    System.out.println("=====poll=====" + queue.poll());
     queue.offer(3);
     queue.offer(4);
     queue.offer(5);
     queue.offer(6);
     queue.offer(7);
+//    System.out.println("=====poll=====" + queue.poll());
     queue.offer(8);
     queue.offer(9);
-    res = queue.poll();
-    System.out.println("res2=" + res);
-    res = queue.poll();
-    System.out.println("res3=" + res);
+
+    queue.offer(10);
+    queue.offer(11);
+    queue.offer(12);
+    queue.offer(13);
+    queue.offer(14);
+    queue.offer(15);
+    queue.offer(16);
+    queue.offer(17);
+    queue.offer(18);
+    queue.offer(19);
+    queue.offer(20);
+
+    System.out.println("=====poll=====" + queue.poll());
+    System.out.println("=====poll=====" + queue.poll());
+    System.out.println("=====poll=====" + queue.poll());
+    System.out.println("=====poll=====" + queue.poll());
+    System.out.println("=====poll=====" + queue.poll());
   }
 }

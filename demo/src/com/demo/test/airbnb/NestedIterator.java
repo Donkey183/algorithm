@@ -14,7 +14,7 @@ public class NestedIterator implements Iterator<Integer> {
   
   private void flatten(List<NestedInteger> nestedList, Deque<Integer> deque) {
     for (NestedInteger n : nestedList) {
-      if (n.getInteger() == null) {
+      if (n.getInteger() == null) { // 表示是一个列表
         flatten(n.getList(), deque);
       } else {
         deque.offerLast(n.getInteger());

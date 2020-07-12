@@ -72,7 +72,7 @@ public class TextJustification {
    * <p>
    * Return the formatted lines as:
    * [
-   * "it is is an",
+   * "This   is     an",
    * "example of text",
    * "justification. "
    * ]
@@ -104,8 +104,8 @@ public class TextJustification {
   private static List<String> fullJustify(String[] strs) {
     // Step1: 查找分割点
     List<Integer> lineList = findEnd(strs, 16);
-    for(Integer i : lineList) {
-      System.out.println(i);
+    int sum = 0;
+    for(int i = 0;  i< strs.length; i++) {
     }
 
     // Step2: 填充字符串

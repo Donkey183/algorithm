@@ -49,8 +49,12 @@ public class CSVParse {
 //    System.out
 //        .println(parseCSV("\"Alexandra \"\"Alex\"\"\",Menendez,alex.menendez@gmail.com,Miami,1"));
 //    System.out.println(parseCSV("\"\"\"Alexandra Alex\"\"\""));
+//    System.out.println(
+//        parseCSV("\"Jane \"\"Mo\"\"\",Roberts,janer@msn.com,\"San Francisco, CA\",,BeiJing,20"));
 //    String arr[] = ",,,".split(",");
 //    System.out.println(arr.length);
+    System.out
+        .println("\"Jane \"\"Mo\"\"\",Roberts,janer@msn.com,\"San Francisco, CA\",,BeiJing,20");
     try {
 
       CSVRecord record1 = new CSVRecord(
@@ -68,19 +72,6 @@ public class CSVParse {
     } catch (Exception e) {
       e.printStackTrace();
     }
-
-  }
-
-  public static String parseCSV2(String str) {
-    if (str == null || str.length() == 0) {
-      return "";
-    }
-    int index = 0;
-    return "";
-  }
-
-  public static int findEnd(String str) {
-    return 0;
   }
 
   public static class CSVRecord {
@@ -94,17 +85,17 @@ public class CSVParse {
     private String age;
 
     private String csvStr;
-    private int start = 0;
+    private int curStart = 0;
 
     public CSVRecord(String str) {
       this.csvStr = str;
-      this.firstName = parseOne();
-      this.lastName = parseOne();
-      this.email = parseOne();
-      this.interests = parseOne();
-      this.notes = parseOne();
-      this.city = parseOne();
-      this.age = parseOne();
+      this.firstName = parseNext();
+      this.lastName = parseNext();
+      this.email = parseNext();
+      this.interests = parseNext();
+      this.notes = parseNext();
+      this.city = parseNext();
+      this.age = parseNext();
     }
 
     public String formatOutput() {
@@ -121,47 +112,57 @@ public class CSVParse {
       return sb.toString();
     }
 
-    public String parseOne() {
-      int end = findEnd();
-      String curStr = csvStr.substring(start, start + end);
-      start += end + 1;
+    public String parseNext() {
+      int nextEnd = findNextEnd();
+      String curStr = csvStr.substring(curStart, curStart + nextEnd);
+      curStart += nextEnd + 1;
       return process(curStr);
     }
 
-    public int findEnd() {
-      String curStr = csvStr.substring(start);
+    private int findNextEnd() {
+      String curStr = csvStr.substring(curStart);
       int index = curStr.indexOf(",");
+
       if (index == -1) {
         return curStr.length();
       }
-      if (curStr.charAt(index + 1) == ',') {
+
+      String case1 = "Jane,Roberts,janer@msn.com,music,notes2,BeiJing,20";
+      boolean b1 = curStr.charAt(0) != '\"';
+
+      String case2 = "John,,john.smith@gmail.com,PingPong,notes1,BeiJing,1";
+      boolean b2 = curStr.length() >= index + 1 && curStr.charAt(index + 1) == ',';
+
+      String case3 = "\"John\",Smith,john.smith@gmail.com,PingPong,notes1,BeiJing,1";
+      boolean b3 = curStr.charAt(0) == '\"' && curStr.charAt(index - 1) == '\"';
+
+      if (b1 || b2 || b3) {
         return index;
       }
-      if (curStr.charAt(0) == '\"' && curStr.charAt(index - 1) == '\"'
-          || curStr.charAt(0) != '\"') {
-        return index;
-      } else {
-        String newStr = curStr.substring(index +1);
-        return index + newStr.indexOf('\"') + 2;
-      }
+
+      String case4 = "\"PingPong,FootBall\",John,Smith,john.smith@gmail.com,,notes1,BeiJing,1";
+      String newStr = curStr.substring(index + 1);
+      return index + newStr.indexOf('\"') + 1 + 1; // index从0开始，再往后挪一位
     }
 
-    public String process(String str) {
+    private String process(String str) {
       StringBuilder sb = new StringBuilder();
-      for(int i = 0; i < str.length(); i++) {
-        if(str.charAt(i) == '\"') {
-          if( i + 1 < str.length() && str.charAt(i+1) == '\"') {
-            sb.append(str.charAt(i+1));
-          }
-        }else {
+      for (int i = 0; i < str.length(); i++) {
+
+        boolean b1 = str.charAt(i) != '\"';
+        // "Jane ""Mo""",Roberts,janer@msn.com,"San Francisco, CA",,BeiJing,20
+        String case2 = "\"Jane \"\"Mo\"\"\",Roberts,janer@msn.com,\"San Francisco, CA\",,BeiJing,20";
+        boolean b2 = str.charAt(i) == '\"' && i + 1 < str.length() && str.charAt(i + 1) == '\"';
+        // b3同case2
+        boolean b3 = str.charAt(i) == '\"' && i + 2 < str.length() && str.charAt(i + 1) == '\"'
+            && str.charAt(i + 2) == '\"';
+
+        if (b1 || b2 && !b3) {
           sb.append(str.charAt(i));
         }
       }
-      String result = sb.toString();
-      if(result.length() > 2 && result.charAt(result.length()-1) == '\"' && result.charAt(result.length()-2) == '\"') {
-        return result.substring(0, result.length() -1);
-      }
-      return result;
+
+      return sb.toString();
     }
   }
 }

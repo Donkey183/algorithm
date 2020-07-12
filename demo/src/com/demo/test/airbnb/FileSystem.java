@@ -60,10 +60,11 @@ public class FileSystem {
   public static void main(String[] args) {
     FileSystem sol = new FileSystem();
     sol.create("/a", 1);
-    System.out.println("===1===" + (int) sol.get("/a"));
+    System.out.println("===1===" + (int) sol.get("/a/c"));
     sol.create("/a/b", 2);
     System.out.println("===2===" + (int) sol.get("/a/b"));
     sol.set("/a/b", 3);
+    System.out.println("===3===" + (int) sol.get("/a/b"));
     System.out.println("===3===" + (int) sol.get("/a/b"));
     sol.create("/c", 4);
     sol.create("/c/d", 4);
