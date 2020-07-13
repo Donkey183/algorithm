@@ -60,7 +60,6 @@ public class FileSystem {
   public static void main(String[] args) {
     FileSystem sol = new FileSystem();
     sol.create("/a", 1);
-    System.out.println("===1===" + (int) sol.get("/a/c"));
     sol.create("/a/b", 2);
     System.out.println("===2===" + (int) sol.get("/a/b"));
     sol.set("/a/b", 3);
@@ -71,7 +70,6 @@ public class FileSystem {
     sol.create("/c/d", 5);
 //    sol.set("/c/d", 4);
     System.out.println("===4===" + (int) sol.get("/c/d"));
-    System.out.println("===4===" + (int) sol.get("/ca/d"));
     
     sol = new FileSystem();
     sol.create("/NA", 1);
