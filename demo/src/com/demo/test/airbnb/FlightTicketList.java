@@ -80,10 +80,15 @@ public class FlightTicketList {
    */
   public static void main(String[] args) {
     int[][] flights = new int[][]{{0, 1, 100}, {1, 2, 100}, {0, 2, 500}};
-    int result = findCheapestPrice(3, flights, 0, 2, 1);
+    int result = findCheapestPrice(3, flights, 0, 2, 0);
     System.out.println("reuslt=" + result);
   }
-  
+
+  /**
+   * 题解:
+   * https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/solution/k-zhan-zhong-zhuan-nei-zui-bian-yi-de-hang-ban-b-2/
+   *
+   */
   public static int findCheapestPrice(int n, int[][] flights, int src, int dst, int K) {
     
     int notFound = -1;
@@ -96,6 +101,7 @@ public class FlightTicketList {
     Arrays.fill(prices, fill);
     prices[src] = 0;
     int cheapestPrice = prices[dst];
+    Collections.shuffle(null);
     
     for (int i = 0; i <= K; i++) {
       int[] tmpPrice = new int[n];
