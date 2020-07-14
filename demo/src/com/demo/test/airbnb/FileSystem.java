@@ -11,7 +11,7 @@ public class FileSystem {
   public FileSystem() {
     this.pathMap = new HashMap<>();
     this.callbackMap = new HashMap<>();
-    this.pathMap.put("", 0);
+    this.pathMap.put("", 0); // 解决空指针 !pathMap.containsKey(path.substring(0, lastSlashIndex))
   }
   
   public boolean create(String path, int value) {
@@ -37,14 +37,17 @@ public class FileSystem {
     pathMap.put(path, value);
     
     // Trigger callbacks
-//    String curPath = path;
-//    while (curPath.length() > 0) {
-//      if (callbackMap.containsKey(curPath)) {
-//        callbackMap.get(curPath).run();
-//      }
-//      int lastSlashIndex = path.lastIndexOf("/");
-//      curPath = curPath.substring(0, lastSlashIndex);
+    String curPath = path;
+//    if (callbackMap.containsKey(curPath)) {
+//      callbackMap.get(curPath).run();
 //    }
+    while (curPath.length() > 0) {
+      if (callbackMap.containsKey(curPath)) {
+        callbackMap.get(curPath).run();
+      }
+      int lastSlashIndex = path.lastIndexOf("/");
+      curPath = curPath.substring(0, lastSlashIndex);
+    }
     return true;
   }
   
@@ -62,20 +65,25 @@ public class FileSystem {
     sol.create("/a", 1);
     sol.create("/a/b", 2);
     System.out.println("===2===" + (int) sol.get("/a/b"));
-    sol.set("/a/b", 3);
+//    sol.set("/a/b", 3);
     System.out.println("===3===" + (int) sol.get("/a/b"));
     System.out.println("===3===" + (int) sol.get("/a/b"));
     sol.create("/c", 4);
     sol.create("/c/d", 4);
     sol.create("/c/d", 5);
-//    sol.set("/c/d", 4);
     System.out.println("===4===" + (int) sol.get("/c/d"));
-    
-    sol = new FileSystem();
-    sol.create("/NA", 1);
-    sol.create("/EU", 2);
-    System.out.println("===1===" + (int) sol.get("/NA"));
-    sol.create("/NA/CA", 101);
-    System.out.println("===101===" + (int) sol.get("/NA/CA"));
+
+    FileSystem finalSol = sol;
+    finalSol.set("/c", 500);
+    sol.watch("/c/d", new Runnable() {
+      @Override
+      public void run() {
+//        finalSol.set("/c/d", 100);
+        System.out.println("===run===" + finalSol.get("/c/d"));
+      }
+    });
+
+
+    finalSol.set("/c/d", 100);
   }
 }
