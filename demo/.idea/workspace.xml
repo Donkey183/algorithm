@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce0d16cd-9a9b-4cdf-bba7-6bef5e0a0503" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/ParseUrlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/ReverseUrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/MaxNights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/airbnb/MaxNights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/META-INF/demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/MaxSubsequenceSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/MaxSubsequenceSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/Puke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/Puke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/SearchMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/SearchMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/StringAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/StringAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/TwoSumIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/TwoSumIV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/CSVParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/CSVParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/CombinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/CombinationSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/DisplayPageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/DisplayPageList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/FileSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/FileSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/FindMedianinLargeIntegerFileofIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/FindMedianinLargeIntegerFileofIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/FlightTicketList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/FlightTicketList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/ImplementQueueWithFixedSizeofArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/ImplementQueueWithFixedSizeofArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/IpToCIDR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/IpToCIDR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/LetterCasePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/LetterCasePermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/MaxNights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/MaxNights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/MeetingRooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/NestedIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/NestedIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/PalindromePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/PalindromePairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/RegularExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/RegularExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/RoundNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/RoundNums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/StringProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/StringProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/TextJustification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/TextJustification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/Vector2D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,21 +44,35 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
-  </component>
+  <component name="ProjectId" id="1efGeXSOeszp5d2HViYQfUWwzwN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.MaxNights">
+  <component name="RunManager" selected="Application.ReverseUrl">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -36,40 +81,12 @@
       <module />
     </configuration>
     <configuration name="FileSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.airbnb.FileSystem" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.ll.FileSystem" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.test.airbnb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlightTicketList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.airbnb.FlightTicketList" />
-      <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.test.airbnb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IpToCIDR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.airbnb.IpToCIDR" />
-      <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.test.airbnb.*" />
+          <option name="PATTERN" value="com.demo.test.ll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +95,54 @@
       </method>
     </configuration>
     <configuration name="MaxNights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.airbnb.MaxNights" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.ll.MaxNights" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.test.airbnb.*" />
+          <option name="PATTERN" value="com.demo.test.ll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseUrlUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.ParseUrlUtil" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.ReverseUrl" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.Test" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,10 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseUrl" />
+        <item itemvalue="Application.ParseUrlUtil" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MaxNights" />
         <item itemvalue="Application.FileSystem" />
-        <item itemvalue="Application.IpToCIDR" />
-        <item itemvalue="Application.FlightTicketList" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +216,19 @@
       <workItem from="1576897835597" duration="14986000" />
       <workItem from="1577178709476" duration="45000" />
       <workItem from="1577432486888" duration="7131000" />
+      <workItem from="1594705334376" duration="363000" />
+      <workItem from="1601465015364" duration="1020000" />
+      <workItem from="1606118016369" duration="171000" />
+      <workItem from="1606293855045" duration="3406000" />
+      <workItem from="1607666438903" duration="670000" />
+      <workItem from="1607914859764" duration="271000" />
+      <workItem from="1612330422534" duration="1200000" />
+      <workItem from="1614047017065" duration="1457000" />
+      <workItem from="1614241954386" duration="462000" />
+      <workItem from="1614599828637" duration="1158000" />
+      <workItem from="1615285740323" duration="408000" />
+      <workItem from="1618122327404" duration="1820000" />
+      <workItem from="1618194356590" duration="260000" />
     </task>
     <servers />
   </component>
@@ -163,59 +236,47 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1618" height="235" key="GridCell.Tab.0.bottom" timestamp="1594704218385">
+    <state x="240" y="28" key="#Project_Structure" timestamp="1618633966640">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1618" height="235" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594704218385" />
-    <state width="1618" height="235" key="GridCell.Tab.0.center" timestamp="1594704218384">
+    <state x="240" y="28" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1618633966640" />
+    <state width="1618" height="269" key="GridCell.Tab.0.bottom" timestamp="1618194351490">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1618" height="235" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594704218384" />
-    <state width="1618" height="235" key="GridCell.Tab.0.left" timestamp="1594704218384">
+    <state width="1618" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1618194351490" />
+    <state width="1618" height="269" key="GridCell.Tab.0.center" timestamp="1618194351489">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1618" height="235" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594704218384" />
-    <state width="1618" height="235" key="GridCell.Tab.0.right" timestamp="1594704218385">
+    <state width="1618" height="269" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1618194351489" />
+    <state width="1618" height="269" key="GridCell.Tab.0.left" timestamp="1618194351488">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1618" height="235" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594704218385" />
-    <state width="1618" height="334" key="GridCell.Tab.1.bottom" timestamp="1594702557026">
+    <state width="1618" height="269" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1618194351488" />
+    <state width="1618" height="269" key="GridCell.Tab.0.right" timestamp="1618194351490">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1618" height="334" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594702557026" />
-    <state width="1618" height="334" key="GridCell.Tab.1.center" timestamp="1594702557025">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1618" height="334" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594702557025" />
-    <state width="1618" height="334" key="GridCell.Tab.1.left" timestamp="1594702557024">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1618" height="334" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594702557024" />
-    <state width="1618" height="334" key="GridCell.Tab.1.right" timestamp="1594702557025">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1618" height="334" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594702557025" />
+    <state width="1618" height="269" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1618194351490" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/demo/test/airbnb/CSVParse.java</url>
+          <url>file://$PROJECT_DIR$/src/com/demo/test/ll/CSVParse.java</url>
           <line>161</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/demo/test/airbnb/StringProduct.java</url>
+          <url>file://$PROJECT_DIR$/src/com/demo/test/ll/StringProduct.java</url>
           <line>15</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/demo/test/airbnb/FileSystem.java</url>
+          <url>file://$PROJECT_DIR$/src/com/demo/test/ll/FileSystem.java</url>
           <line>81</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/demo/test/airbnb/FileSystem.java</url>
+          <url>file://$PROJECT_DIR$/src/com/demo/test/ll/FileSystem.java</url>
           <line>44</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
