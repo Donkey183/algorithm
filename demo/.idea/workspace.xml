@@ -2,39 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce0d16cd-9a9b-4cdf-bba7-6bef5e0a0503" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/demo/test/ParseUrlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/ReverseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/XXx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/两个栈实现队列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/两个线程交替打印.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/反转URL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/多线程循环打印.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/实现LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/数组中最小或最大K个数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/最小的K个数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/最长回文子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/最长无重复子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/标准括号.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/生产者消费者模型.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/符串S在T中出现的次数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/设计一个有gitMin的栈.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/META-INF/demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/MaxSubsequenceSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/MaxSubsequenceSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/Puke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/Puke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/SearchMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/SearchMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/StringAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/StringAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/TwoSumIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/TwoSumIV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/UniquePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/CSVParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/CSVParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/CombinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/CombinationSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/DisplayPageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/DisplayPageList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/FileSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/FileSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/FindMedianinLargeIntegerFileofIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/FindMedianinLargeIntegerFileofIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/FlightTicketList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/FlightTicketList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/ImplementQueueWithFixedSizeofArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/ImplementQueueWithFixedSizeofArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/IpToCIDR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/IpToCIDR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/LetterCasePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/LetterCasePermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/MaxNights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/MaxNights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/MeetingRooms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/NestedIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/NestedIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/PalindromePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/PalindromePairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/RegularExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/RegularExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/RoundNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/RoundNums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/StringProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/StringProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/TextJustification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/TextJustification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/airbnb/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/ll/Vector2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/ParseUrlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/ReverseUrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/StringAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/两数之和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +61,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.ReverseUrl">
+  <component name="RunManager" selected="Application.二叉树">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -80,50 +69,8 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="FileSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.ll.FileSystem" />
-      <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.test.ll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxNights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.ll.MaxNights" />
-      <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.test.ll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParseUrlUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.ParseUrlUtil" />
-      <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.ReverseUrl" />
+    <configuration name="两数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.两数之和" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -136,13 +83,97 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.Test" />
+    <configuration name="最长无重复子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.最长无重复子串" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.最长回文子串" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.二叉树" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组中最小或最大K个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.数组中最小或最大K个数" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XXx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.XXx" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="标准括号" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.标准括号" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="多线程循环打印" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.多线程循环打印" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.lll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseUrl" />
-        <item itemvalue="Application.ParseUrlUtil" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MaxNights" />
-        <item itemvalue="Application.FileSystem" />
+        <item itemvalue="Application.二叉树" />
+        <item itemvalue="Application.XXx" />
+        <item itemvalue="Application.最长回文子串" />
+        <item itemvalue="Application.最长无重复子串" />
+        <item itemvalue="Application.两数之和" />
       </list>
     </recent_temporary>
   </component>
@@ -229,33 +260,101 @@
       <workItem from="1615285740323" duration="408000" />
       <workItem from="1618122327404" duration="1820000" />
       <workItem from="1618194356590" duration="260000" />
+      <workItem from="1618633868382" duration="6237000" />
+      <workItem from="1618990863569" duration="11247000" />
+      <workItem from="1619094719963" duration="5561000" />
+      <workItem from="1619883397732" duration="21249000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1618633993746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618633993746</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="28" key="#Project_Structure" timestamp="1618633966640">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="240" y="28" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1618633966640" />
-    <state width="1618" height="269" key="GridCell.Tab.0.bottom" timestamp="1618194351490">
+    <state x="565" y="112" key="#com.intellij.ide.util.MemberChooser" timestamp="1619057865595">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1618" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1618194351490" />
-    <state width="1618" height="269" key="GridCell.Tab.0.center" timestamp="1618194351489">
+    <state x="565" y="112" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1619057865595" />
+    <state x="489" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1619933318102">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1618" height="269" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1618194351489" />
-    <state width="1618" height="269" key="GridCell.Tab.0.left" timestamp="1618194351488">
+    <state x="489" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1619933318102" />
+    <state x="0" y="0" width="1225" height="1050" key="CommitChangelistDialog2" timestamp="1618633993254">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1618" height="269" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1618194351488" />
-    <state width="1618" height="269" key="GridCell.Tab.0.right" timestamp="1618194351490">
+    <state x="0" y="0" width="1225" height="1050" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1618633993254" />
+    <state width="489" height="700" key="DebuggerActiveHint" timestamp="1620194286946">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1618" height="269" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1618194351490" />
+    <state width="489" height="700" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1620194286946" />
+    <state width="1618" height="353" key="GridCell.Tab.0.bottom" timestamp="1620206546827">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1618" height="353" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1620206546827" />
+    <state width="1618" height="353" key="GridCell.Tab.0.center" timestamp="1620206546826">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1618" height="353" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1620206546826" />
+    <state width="1618" height="353" key="GridCell.Tab.0.left" timestamp="1620206546824">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1618" height="353" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1620206546824" />
+    <state width="1618" height="353" key="GridCell.Tab.0.right" timestamp="1620206546826">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1618" height="353" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1620206546826" />
+    <state width="1618" height="335" key="GridCell.Tab.1.bottom" timestamp="1620199879267">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1618" height="335" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1620199879267" />
+    <state width="1618" height="335" key="GridCell.Tab.1.center" timestamp="1620199879266">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1618" height="335" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1620199879266" />
+    <state width="1618" height="335" key="GridCell.Tab.1.left" timestamp="1620199879266">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1618" height="335" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1620199879266" />
+    <state width="1618" height="335" key="GridCell.Tab.1.right" timestamp="1620199879267">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1618" height="335" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1620199879267" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1618633996482">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1618633996482" />
+    <state x="355" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619935492270">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="355" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1619935492270" />
+    <state x="453" y="204" key="extract.method.dialog" timestamp="1619885288553">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="453" y="204" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1619885288553" />
+    <state x="337" y="240" key="run.anything.popup" timestamp="1620195340959">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="337" y="240" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1620195340959" />
+    <state x="337" y="0" width="1005" height="1466" key="search.everywhere.popup" timestamp="1619941733504">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="337" y="0" width="1005" height="1466" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1619941733504" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -279,6 +378,26 @@
           <url>file://$PROJECT_DIR$/src/com/demo/test/ll/FileSystem.java</url>
           <line>44</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
+          <line>172</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
+          <line>190</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
