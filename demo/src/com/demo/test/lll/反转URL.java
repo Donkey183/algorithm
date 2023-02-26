@@ -7,7 +7,7 @@ public class 反转URL {
     String url = "www.baidu.com";
     String s = String.valueOf(reverse(url.toCharArray()));
     System.out.println("======result=======" + s);
-
+    System.out.println("======result2======" + reverse2(url));
   }
 
   private static char[] reverse(char[] values) {
@@ -34,4 +34,25 @@ public class 反转URL {
     }
     return values;
   }
+
+  private static String reverse2(String str) {
+    if(str == null || str.length() == 0) {
+      return null;
+    }
+    String[] strs = str.split("\\.");
+    int end = strs.length - 1;
+    for(int i = 0; i < end; i++) {
+      String tmp = strs[i];
+      strs[i] = strs[end];
+      strs[end] = tmp;
+      end--;
+    }
+
+    StringBuilder sb = new StringBuilder();
+    for(int i = 0; i < strs.length; i++) {
+      sb.append(strs[i]).append(".");
+    }
+    return sb.deleteCharAt(sb.length()-1).toString();
+  }
+
 }
