@@ -2,7 +2,7 @@ package com.demo.test.lll;
 
 public class 多线程循环打印 {
 
-  public static class Sulution {
+  public static class Solution {
 
     //需要打印的数字
     private int N;
@@ -58,7 +58,7 @@ public class 多线程循环打印 {
 
   //main函数作为测试用例
   public static void main(String[] args) {
-    Sulution print = new Sulution();
+    Solution print = new Solution();
     print.printSeqNum(100, 3);
   }
 }

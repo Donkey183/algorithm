@@ -75,6 +75,7 @@ public class 二叉树 {
   public static void preOrder(TreeNode root, List<Integer> list) {
     if (root != null) {
       list.add(root.val);
+      System.out.println("preOrder:" + root.val);
       preOrder(root.left, list);
       preOrder(root.right, list);
     }
@@ -84,6 +85,7 @@ public class 二叉树 {
     if (root != null) {
       inorder(root.left, list);
       list.add(root.val);
+      System.out.println("inorder:" + root.val);
       inorder(root.right, list);
     }
   }
@@ -93,6 +95,7 @@ public class 二叉树 {
       postorder(root.left, list);
       postorder(root.right, list);
       list.add(root.val);
+      System.out.println("postorder:" + root.val);
     }
   }
 
@@ -244,6 +247,7 @@ public class 二叉树 {
 //      System.out.println(i);
 //    }
 
+    preOrder(root, new ArrayList<Integer>());
     System.out.println("maxDepth=" + maxDepth2(root));
     System.out.println("hasPathSum=" + hasPathSum(root, 101));
   }

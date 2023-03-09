@@ -1,6 +1,6 @@
 package com.demo.test.lll;
 
-public class QuickSort {
+public class 快排 {
   public static void quickSort(int[] arr) {
     qsort(arr, 0, arr.length - 1);
   }
