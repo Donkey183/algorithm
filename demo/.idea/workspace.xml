@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0d16cd-9a9b-4cdf-bba7-6bef5e0a0503" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/水平和z形打印二叉树.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/反转URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/反转URL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkList">
+  <component name="RunManager" selected="Application.水平和z形打印二叉树">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -73,13 +73,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.ll.CombinationSum" />
+    <configuration name="二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.二叉树" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.test.ll.*" />
+          <option name="PATTERN" value="com.demo.test.lll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,20 +103,6 @@
     </configuration>
     <configuration name="反转URL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.反转URL" />
-      <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.test.lll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XXx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.XXx" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -205,6 +191,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="水平和z形打印二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.水平和z形打印二叉树" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -232,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.水平和z形打印二叉树" />
+        <item itemvalue="Application.二叉树" />
         <item itemvalue="Application.LinkList" />
         <item itemvalue="Application.反转URL" />
         <item itemvalue="Application.两个线程交替打印" />
-        <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.XXx" />
       </list>
     </recent_temporary>
   </component>
@@ -338,22 +338,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
-          <line>172</line>
+          <line>118</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
-          <line>202</line>
+          <line>148</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
-          <line>204</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
-          <line>190</line>
+          <line>146</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
