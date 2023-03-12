@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0d16cd-9a9b-4cdf-bba7-6bef5e0a0503" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/水平和z形打印二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/二叉搜索树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/二叉树最近公共祖先.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/完全二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/平衡二叉树.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +75,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.二叉树" />
-      <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.test.lll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.LinkList" />
       <module name="demo" />
@@ -103,6 +91,20 @@
     </configuration>
     <configuration name="反转URL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.反转URL" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.二叉树" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -233,7 +235,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.水平和z形打印二叉树" />
-        <item itemvalue="Application.二叉树" />
         <item itemvalue="Application.LinkList" />
         <item itemvalue="Application.反转URL" />
         <item itemvalue="Application.两个线程交替打印" />
