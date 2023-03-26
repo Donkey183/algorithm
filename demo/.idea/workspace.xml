@@ -5,11 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0d16cd-9a9b-4cdf-bba7-6bef5e0a0503" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/二叉搜索树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/二叉树最近公共祖先.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/完全二叉树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/平衡二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/linklist/K个节点一组翻转链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/linklist/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/linklist/两条链表是否相交.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/linklist/删除有序链表重复元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/linklist/删除链表倒数第n个节点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/linklist/反转链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/linklist/合并两个有序链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/linklist/链表奇偶重排.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/linklist/链表是否为回文结构.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/linklist/链表是否有环.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/最长公共子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/最长公共子序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/lll/连续子数组的最大和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/动态规划/买股票最佳时机1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/动态规划/买股票最佳时机2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/test/动态规划/买股票最好时机3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/I/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/I/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/LinkList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/二叉搜索树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/tree/二叉搜索树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/tree/二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/二叉树是否存在两数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/tree/二叉树是否存在两数之和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/二叉树最近公共祖先.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/tree/二叉树最近公共祖先.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/完全二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/tree/完全二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/平衡二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/tree/平衡二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/水平和z形打印二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/tree/水平和z形打印二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/重建二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/tree/重建二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/lll/镜像二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/tree/镜像二叉树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +76,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.test.动态规划" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.水平和z形打印二叉树">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -62,12 +90,12 @@
       <module />
     </configuration>
     <configuration name="两个线程交替打印" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.两个线程交替打印" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.其他.两个线程交替打印" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="PATTERN" value="com.demo.test.二叉树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +104,12 @@
       </method>
     </configuration>
     <configuration name="LinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.LinkList" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.linklist.LinkList" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="PATTERN" value="com.demo.test.二叉树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +118,12 @@
       </method>
     </configuration>
     <configuration name="反转URL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.反转URL" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.其他.反转URL" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="PATTERN" value="com.demo.test.二叉树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,12 +222,12 @@
       </method>
     </configuration>
     <configuration name="水平和z形打印二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.lll.水平和z形打印二叉树" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.二叉树.水平和z形打印二叉树" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.test.lll.*" />
+          <option name="PATTERN" value="com.demo.test.二叉树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,6 +313,9 @@
       <workItem from="1619094719963" duration="5561000" />
       <workItem from="1619883397732" duration="21249000" />
       <workItem from="1676873697815" duration="5721000" />
+      <workItem from="1679652834521" duration="2022000" />
+      <workItem from="1679809671381" duration="156000" />
+      <workItem from="1679810192822" duration="4713000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1618633993746</created>
@@ -338,17 +369,17 @@
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
+          <url>file://$PROJECT_DIR$/src/com/demo/test/tree/二叉树.java</url>
           <line>118</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
+          <url>file://$PROJECT_DIR$/src/com/demo/test/tree/二叉树.java</url>
           <line>148</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/demo/test/lll/二叉树.java</url>
+          <url>file://$PROJECT_DIR$/src/com/demo/test/tree/二叉树.java</url>
           <line>146</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
