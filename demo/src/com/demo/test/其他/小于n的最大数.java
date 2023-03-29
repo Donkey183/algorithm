@@ -1,8 +1,8 @@
-package com.demo.test.I;
+package com.demo.test.其他;
 
 import java.util.Arrays;
 
-public class Test {
+public class 小于n的最大数 {
     public static void main(String[] args) {
         int arr[] = {1, 3, 6, 6};
         int tArr[] = {1, 3, 6};
