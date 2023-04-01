@@ -39,16 +39,6 @@ public class 二叉树 {
         }
     }
 
-    public static class TreeNode {
-
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        public TreeNode(int x) {
-            val = x;
-        }
-    }
 
     public static TreeNode initTree() {
         TreeNode root = new TreeNode(100);

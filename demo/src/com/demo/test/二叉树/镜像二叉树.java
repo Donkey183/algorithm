@@ -14,18 +14,18 @@ public class 镜像二叉树 {
      * 3.3、交换： 交换 node 的左 / 右子节点。
      * 4、返回值： 返回根节点 pRoot 。
      */
-    public 二叉树.TreeNode Mirror(二叉树.TreeNode pRoot) {
+    public TreeNode Mirror(TreeNode pRoot) {
         // write code here
         if (pRoot == null) {
             return null;
         }
         // 构建辅助栈
-        Stack<二叉树.TreeNode> stack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<>();
         // 根节点入栈
         stack.add(pRoot);
         while (!stack.isEmpty()) {
             // 节点出栈
-            二叉树.TreeNode node = stack.pop();
+            TreeNode node = stack.pop();
             // 根节点的左右子树入栈
             if (node.left != null) {
                 stack.add(node.left);
@@ -34,7 +34,7 @@ public class 镜像二叉树 {
                 stack.add(node.right);
             }
             // 左右子树交换
-            二叉树.TreeNode tmp = node.left;
+            TreeNode tmp = node.left;
             node.left = node.right;
             node.right = tmp;
         }

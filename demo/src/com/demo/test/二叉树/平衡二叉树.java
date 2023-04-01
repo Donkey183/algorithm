@@ -7,7 +7,7 @@ public class 平衡二叉树 {
      * @param root
      * @return
      */
-    public int depth(二叉树.TreeNode root) {
+    public int depth(TreeNode root) {
         if (root == null) {
             return 0;
         }
@@ -28,7 +28,7 @@ public class 平衡二叉树 {
         }
     }
 
-    public boolean IsBalanced_Solution(二叉树.TreeNode root) {
+    public boolean IsBalanced_Solution(TreeNode root) {
         return depth(root) != -1;
     }
 }
