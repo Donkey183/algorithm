@@ -5,7 +5,7 @@ import java.util.*;
 public class 水平和z形打印二叉树 {
 
     /**
-     * 水平打印二叉树
+     * 水平打印二叉树(用容器存储)
      */
     public static List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList();//用于返回最后的结果
@@ -46,6 +46,7 @@ public class 水平和z形打印二叉树 {
         boolean isOrderLeft = true;
 
         while (!nodeQueue.isEmpty()) {
+            // 使用双端队列
             Deque<Integer> levelList = new LinkedList<Integer>();
             int size = nodeQueue.size();
             for (int i = 0; i < size; ++i) {
@@ -70,12 +71,41 @@ public class 水平和z形打印二叉树 {
 
     public static void main(String[] args) {
         TreeNode root = 二叉树.initTree();
-
-        List<List<Integer>> result = levelOrder(root);
+//        printTreeNode(root);
+        List<List<Integer>> result = zLevelOrder(root);
         for (List<Integer> list : result) {
             for (Integer i : list) {
                 System.out.print(i + ", ");
             }
         }
     }
+
+
+    /**
+     * 只打印
+     *
+     * @param root
+     */
+    public static void printTreeNode(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Queue<TreeNode> queue = new LinkedList();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int n = queue.size();
+            for (int i = 0; i < n; i++) {
+                TreeNode node = queue.poll();
+                System.out.println(node.val);
+                if (node.left != null) {
+                    queue.add(node.left);
+                }
+                if (node.right != null) {
+                    queue.add(node.right);
+                }
+            }
+        }
+    }
+
+
 }
