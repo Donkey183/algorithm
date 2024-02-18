@@ -9,7 +9,7 @@ public class 买股票最佳时机2 {
      * 2. 如果不能获取收益，请返回0
      * 3. 假设买入卖出均无手续费
      * <p>
-     * 输入：[8,9,2,5,4,7,1]
+     * 输入：[8,9,2,5,4,7,100]
      * 输出：7
      * <p>
      * 说明：
@@ -31,7 +31,7 @@ public class 买股票最佳时机2 {
      * step 1：遍历数组，只要数组后一个比前一个更大，就可以有收益。
      * step 2：将收益累加，得到最终结果。
      */
-    public int maxProfit(int[] prices) {
+    public static int maxProfit(int[] prices) {
         int res = 0;
         for (int i = 1; i < prices.length; i++) {
             //只要某段在递增就有收益
@@ -41,5 +41,11 @@ public class 买股票最佳时机2 {
             }
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        int[] prices = {8, 9, 2, 5, 4, 7, 100};
+        int res = maxProfit(prices);
+        System.out.println("res=" + res);
     }
 }

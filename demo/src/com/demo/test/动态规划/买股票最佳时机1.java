@@ -26,13 +26,13 @@ public class 买股票最佳时机1 {
             return res;
         }
         //维护最低股票价格
-        int Min = prices[0];
+        int min = prices[0];
         //遍历后续股票价格
         for (int i = 1; i < prices.length; i++) {
             //如果当日价格更低则更新最低价格
-            Min = Math.min(Min, prices[i]);
+            min = Math.min(min, prices[i]);
             //维护最大值
-            res = Math.max(res, prices[i] - Min);
+            res = Math.max(res, prices[i] - min);
         }
         return res;
     }
