@@ -51,6 +51,4 @@ public class 接雨水 {
         }
         return res;
     }
-
-
 }

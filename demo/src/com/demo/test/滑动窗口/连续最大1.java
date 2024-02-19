@@ -1,4 +1,4 @@
-package com.demo.test.其他;
+package com.demo.test.滑动窗口;
 
 public class 连续最大1 {
     /**
