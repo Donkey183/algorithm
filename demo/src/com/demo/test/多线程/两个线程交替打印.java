@@ -1,4 +1,4 @@
-package com.demo.test.其他;
+package com.demo.test.多线程;
 
 public class 两个线程交替打印 {
 

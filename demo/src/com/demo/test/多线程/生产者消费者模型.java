@@ -1,4 +1,4 @@
-package com.demo.test.其他;
+package com.demo.test.多线程;
 
 import java.util.LinkedList;
 import java.util.Queue;
