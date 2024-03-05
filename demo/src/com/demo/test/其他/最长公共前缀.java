@@ -25,7 +25,6 @@ public class 最长公共前缀 {
 
         for (int i = 0; i < len; i++) {
             for (String str : strs) {
-                System.out.println("===str===" + str + " , i = " + i + " ,tmp.substring(0, i + 1)" + tmp.substring(0, i + 1));
                 if (str.length() < i + 1 || !str.startsWith(tmp.substring(0, i + 1))) {
                     return res;
                 }
@@ -36,7 +35,7 @@ public class 最长公共前缀 {
     }
 
     public static void main(String[] args) {
-        String[] strs = {"ac", "ac"};
+        String[] strs = {"abc", "abcd", "abcdde", "abctt"};
         String res = longestCommonPrefix(strs);
         System.out.println("===res===" + res);
     }
